@@ -1,0 +1,9 @@
+{
+	"id": "M7ynakHAoLggDX2",
+	"json": "{\"id\":\"M7ynakHAoLggDX2\",\"url\":\"http://127.0.0.1:8000/posts\",\"loadedUrl\":\"http://127.0.0.1:8000/posts\",\"uniqueKey\":\"auth:/posts\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"requiresAuth\":true,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-30T08:10:08.946Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "auth:/posts",
+	"url": "http://127.0.0.1:8000/posts"
+}

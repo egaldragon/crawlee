@@ -1,0 +1,9 @@
+{
+	"id": "K0aqvwebxgiumfn",
+	"json": "{\"id\":\"K0aqvwebxgiumfn\",\"url\":\"http://127.0.0.1:8000/\",\"loadedUrl\":\"http://127.0.0.1:8000/\",\"uniqueKey\":\"guest:/\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-30T08:10:04.006Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "guest:/",
+	"url": "http://127.0.0.1:8000/"
+}

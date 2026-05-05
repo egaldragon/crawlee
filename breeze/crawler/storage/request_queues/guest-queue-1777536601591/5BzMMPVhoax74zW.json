@@ -1,0 +1,9 @@
+{
+	"id": "5BzMMPVhoax74zW",
+	"json": "{\"id\":\"5BzMMPVhoax74zW\",\"url\":\"http://127.0.0.1:8000/forgot-password\",\"loadedUrl\":\"http://127.0.0.1:8000/forgot-password\",\"uniqueKey\":\"guest:/forgot-password\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-30T08:10:04.880Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "guest:/forgot-password",
+	"url": "http://127.0.0.1:8000/forgot-password"
+}

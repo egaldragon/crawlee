@@ -1,0 +1,9 @@
+{
+	"id": "B9ZSdfyO405502n",
+	"json": "{\"id\":\"B9ZSdfyO405502n\",\"url\":\"http://127.0.0.1:8000/login\",\"loadedUrl\":\"http://127.0.0.1:8000/dashboard\",\"uniqueKey\":\"auth:/login\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"loginStep\":true,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-30T08:10:07.602Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "auth:/login",
+	"url": "http://127.0.0.1:8000/login"
+}

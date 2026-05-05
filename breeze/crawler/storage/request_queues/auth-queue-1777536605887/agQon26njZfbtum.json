@@ -1,0 +1,9 @@
+{
+	"id": "agQon26njZfbtum",
+	"json": "{\"id\":\"agQon26njZfbtum\",\"url\":\"http://127.0.0.1:8000/posts/create\",\"loadedUrl\":\"http://127.0.0.1:8000/posts/create\",\"uniqueKey\":\"auth:/posts/create\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"requiresAuth\":true,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-30T08:10:09.241Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "auth:/posts/create",
+	"url": "http://127.0.0.1:8000/posts/create"
+}

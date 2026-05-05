@@ -1,0 +1,28 @@
+name: Playwright UI Test
+
+on:
+    push:
+        branches: [playwright]
+    pull_request:
+        branches: [playwright]
+
+jobs:
+    playwright:
+        runs-on: ubuntu-latest
+        container:
+            image: mcr.microsoft.com/playwright:v1.58.2-jammy
+            options: >-
+                --add-host host.docker.internal:host-gateway
+                --mount type=volume,source=playwright-npm-cache,target=/root/.npm
+
+        steps:
+            - name: Checkout
+                uses: actions/checkout@v4
+
+            - name: Install deps
+                run: npm ci
+
+            - name: Run tests
+                env:
+                    BASE_URL: http://host.docker.internal:8000
+                run: npx playwright test

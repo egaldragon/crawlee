@@ -1,0 +1,57 @@
+{
+	"title": "Laravel",
+	"url": "http://127.0.0.1:8000/posts/create",
+	"pathname": "/posts/create",
+	"effectivePathname": "/posts/create",
+	"phase": "auth",
+	"forms": [
+		{
+			"action": "/posts",
+			"method": "POST",
+			"inputs": [
+				{
+					"name": "_token",
+					"label": "token",
+					"type": "hidden",
+					"tag": "input",
+					"placeholder": null,
+					"required": false
+				},
+				{
+					"name": "title",
+					"label": "Title:",
+					"type": "text",
+					"tag": "input",
+					"placeholder": null,
+					"required": true
+				},
+				{
+					"name": "text",
+					"label": "Text:",
+					"type": "textarea",
+					"tag": "textarea",
+					"placeholder": null,
+					"required": false
+				},
+				{
+					"name": "category_id",
+					"label": "Category:",
+					"type": "select",
+					"tag": "select",
+					"placeholder": null,
+					"required": false
+				}
+			]
+		}
+	],
+	"components": {
+		"tables": [],
+		"actions": [
+			{
+				"text": "Save",
+				"tag": "button",
+				"href": null
+			}
+		]
+	}
+}

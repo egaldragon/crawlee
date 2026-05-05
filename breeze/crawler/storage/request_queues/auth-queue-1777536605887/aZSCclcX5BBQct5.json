@@ -1,0 +1,9 @@
+{
+	"id": "aZSCclcX5BBQct5",
+	"json": "{\"id\":\"aZSCclcX5BBQct5\",\"url\":\"http://127.0.0.1:8000/categories\",\"loadedUrl\":\"http://127.0.0.1:8000/categories\",\"uniqueKey\":\"auth:/categories\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"requiresAuth\":true,\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-30T08:10:08.414Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "auth:/categories",
+	"url": "http://127.0.0.1:8000/categories"
+}

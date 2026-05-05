@@ -1,0 +1,283 @@
+{
+	"title": "Laravel",
+	"url": "http://127.0.0.1:8000/categories",
+	"pathname": "/categories",
+	"effectivePathname": "/categories",
+	"phase": "auth",
+	"forms": [
+		{
+			"action": "/categories/[id]",
+			"method": "POST",
+			"inputs": [
+				{
+					"name": "_token",
+					"label": "token",
+					"type": "hidden",
+					"tag": "input",
+					"placeholder": null,
+					"required": false
+				},
+				{
+					"name": "_method",
+					"label": "method",
+					"type": "hidden",
+					"tag": "input",
+					"placeholder": null,
+					"required": false
+				}
+			]
+		},
+		{
+			"action": "/categories/[id]",
+			"method": "POST",
+			"inputs": [
+				{
+					"name": "_token",
+					"label": "token",
+					"type": "hidden",
+					"tag": "input",
+					"placeholder": null,
+					"required": false
+				},
+				{
+					"name": "_method",
+					"label": "method",
+					"type": "hidden",
+					"tag": "input",
+					"placeholder": null,
+					"required": false
+				}
+			]
+		},
+		{
+			"action": "/categories/[id]",
+			"method": "POST",
+			"inputs": [
+				{
+					"name": "_token",
+					"label": "token",
+					"type": "hidden",
+					"tag": "input",
+					"placeholder": null,
+					"required": false
+				},
+				{
+					"name": "_method",
+					"label": "method",
+					"type": "hidden",
+					"tag": "input",
+					"placeholder": null,
+					"required": false
+				}
+			]
+		},
+		{
+			"action": "/categories/[id]",
+			"method": "POST",
+			"inputs": [
+				{
+					"name": "_token",
+					"label": "token",
+					"type": "hidden",
+					"tag": "input",
+					"placeholder": null,
+					"required": false
+				},
+				{
+					"name": "_method",
+					"label": "method",
+					"type": "hidden",
+					"tag": "input",
+					"placeholder": null,
+					"required": false
+				}
+			]
+		},
+		{
+			"action": "/categories/[id]",
+			"method": "POST",
+			"inputs": [
+				{
+					"name": "_token",
+					"label": "token",
+					"type": "hidden",
+					"tag": "input",
+					"placeholder": null,
+					"required": false
+				},
+				{
+					"name": "_method",
+					"label": "method",
+					"type": "hidden",
+					"tag": "input",
+					"placeholder": null,
+					"required": false
+				}
+			]
+		},
+		{
+			"action": "/categories/[id]",
+			"method": "POST",
+			"inputs": [
+				{
+					"name": "_token",
+					"label": "token",
+					"type": "hidden",
+					"tag": "input",
+					"placeholder": null,
+					"required": false
+				},
+				{
+					"name": "_method",
+					"label": "method",
+					"type": "hidden",
+					"tag": "input",
+					"placeholder": null,
+					"required": false
+				}
+			]
+		},
+		{
+			"action": "/categories/[id]",
+			"method": "POST",
+			"inputs": [
+				{
+					"name": "_token",
+					"label": "token",
+					"type": "hidden",
+					"tag": "input",
+					"placeholder": null,
+					"required": false
+				},
+				{
+					"name": "_method",
+					"label": "method",
+					"type": "hidden",
+					"tag": "input",
+					"placeholder": null,
+					"required": false
+				}
+			]
+		},
+		{
+			"action": "/categories/[id]",
+			"method": "POST",
+			"inputs": [
+				{
+					"name": "_token",
+					"label": "token",
+					"type": "hidden",
+					"tag": "input",
+					"placeholder": null,
+					"required": false
+				},
+				{
+					"name": "_method",
+					"label": "method",
+					"type": "hidden",
+					"tag": "input",
+					"placeholder": null,
+					"required": false
+				}
+			]
+		}
+	],
+	"components": {
+		"tables": [
+			{
+				"columns": [
+					"Name",
+					"Actions"
+				],
+				"hasActions": true
+			}
+		],
+		"actions": [
+			{
+				"text": "Add new category",
+				"tag": "a",
+				"href": "/categories/create"
+			},
+			{
+				"text": "Edit",
+				"tag": "a",
+				"href": "/categories/[id]/edit"
+			},
+			{
+				"text": "Delete",
+				"tag": "button",
+				"href": null
+			},
+			{
+				"text": "Edit",
+				"tag": "a",
+				"href": "/categories/[id]/edit"
+			},
+			{
+				"text": "Delete",
+				"tag": "button",
+				"href": null
+			},
+			{
+				"text": "Edit",
+				"tag": "a",
+				"href": "/categories/[id]/edit"
+			},
+			{
+				"text": "Delete",
+				"tag": "button",
+				"href": null
+			},
+			{
+				"text": "Edit",
+				"tag": "a",
+				"href": "/categories/[id]/edit"
+			},
+			{
+				"text": "Delete",
+				"tag": "button",
+				"href": null
+			},
+			{
+				"text": "Edit",
+				"tag": "a",
+				"href": "/categories/[id]/edit"
+			},
+			{
+				"text": "Delete",
+				"tag": "button",
+				"href": null
+			},
+			{
+				"text": "Edit",
+				"tag": "a",
+				"href": "/categories/[id]/edit"
+			},
+			{
+				"text": "Delete",
+				"tag": "button",
+				"href": null
+			},
+			{
+				"text": "Edit",
+				"tag": "a",
+				"href": "/categories/[id]/edit"
+			},
+			{
+				"text": "Delete",
+				"tag": "button",
+				"href": null
+			},
+			{
+				"text": "Edit",
+				"tag": "a",
+				"href": "/categories/[id]/edit"
+			},
+			{
+				"text": "Delete",
+				"tag": "button",
+				"href": null
+			}
+		]
+	}
+}

@@ -1,0 +1,51 @@
+{
+	"title": "Laravel",
+	"url": "http://127.0.0.1:8000/login",
+	"pathname": "/login",
+	"effectivePathname": "/login",
+	"phase": "guest",
+	"forms": [
+		{
+			"action": "/login",
+			"method": "POST",
+			"inputs": [
+				{
+					"name": "_token",
+					"label": "token",
+					"type": "hidden",
+					"tag": "input",
+					"placeholder": null,
+					"required": false
+				},
+				{
+					"name": "email",
+					"label": "Email",
+					"type": "email",
+					"tag": "input",
+					"placeholder": null,
+					"required": true
+				},
+				{
+					"name": "password",
+					"label": "Password",
+					"type": "password",
+					"tag": "input",
+					"placeholder": null,
+					"required": true
+				},
+				{
+					"name": "remember",
+					"label": "Remember me",
+					"type": "checkbox",
+					"tag": "input",
+					"placeholder": null,
+					"required": false
+				}
+			]
+		}
+	],
+	"components": {
+		"tables": [],
+		"actions": []
+	}
+}

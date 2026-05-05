@@ -1,0 +1,9 @@
+{
+	"id": "9L6ikm2cwRJO8yS",
+	"json": "{\"id\":\"9L6ikm2cwRJO8yS\",\"url\":\"http://127.0.0.1:8000/register\",\"loadedUrl\":\"http://127.0.0.1:8000/register\",\"uniqueKey\":\"guest:/register\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-30T08:10:04.592Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "guest:/register",
+	"url": "http://127.0.0.1:8000/register"
+}

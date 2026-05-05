@@ -1,0 +1,12 @@
+{
+	"title": "Laravel",
+	"url": "http://127.0.0.1:8000/dashboard",
+	"pathname": "/dashboard",
+	"effectivePathname": "/dashboard",
+	"phase": "auth",
+	"forms": [],
+	"components": {
+		"tables": [],
+		"actions": []
+	}
+}
