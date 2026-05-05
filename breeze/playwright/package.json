@@ -1,16 +1,28 @@
 {
-  "name": "testgen",
+  "name": "playwright",
   "version": "1.0.0",
-  "description": "Playwright Test Generator",
+  "description": "Consolidated Playwright project for web crawling and test generation",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "crawler",
+    "testgen"
+  ],
   "scripts": {
-    "test": "playwright test",
-    "test:headed": "playwright test --headed",
-    "test:ui": "playwright test --ui",
-    "test:report": "playwright show-report"
+    "build": "npm run build -w crawler && npm run build -w testgen",
+    "crawler": "npm -w crawler",
+    "crawler:dev": "npm run dev -w crawler",
+    "crawler:build": "npm run build -w crawler",
+    "crawler:start": "npm run start -w crawler",
+    "testgen": "npm -w testgen",
+    "testgen:build": "npm run build -w testgen",
+    "testgen:generate": "npm run generate -w testgen"
   },
-  "devDependencies": {
-    "@playwright/test": "1.58.2",
-    "typescript": "^5.4.0",
-    "@types/node": "^20.0.0"
-  }
+  "keywords": [
+    "playwright",
+    "crawler",
+    "testgen"
+  ],
+  "author": "",
+  "license": "ISC"
 }

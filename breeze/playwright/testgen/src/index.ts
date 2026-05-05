@@ -11,7 +11,7 @@ import { generatePlaywrightConfig, generatePackageJson, generateTsConfig } from 
 import { generateGiteaWorkflow } from './generate/workflow.js';
 
 function defaultDatasetDir(): string {
-  return path.resolve(process.cwd(), '../crawler/storage/datasets/default');
+  return path.resolve(process.cwd(), '../storage/datasets/default');
 }
 
 function defaultOutputDir(): string {
